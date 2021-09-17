@@ -7,6 +7,11 @@
     font-family: sans-serif;
 }
 
+footer {
+    width: 70%;
+    margin: 25px auto;
+}
+
 .container {
     width: 70%;
     margin: 25px auto;
@@ -26,7 +31,7 @@
 
 .debug-box {
     height: 100px;
-    background-color: plum;
+    background-color: pink;
     width: auto;
     border: 1px solid black;
 }
@@ -35,6 +40,10 @@
     height: 600px;
     background-color: yellow;
     width: auto;
+}
+
+.px30 {
+    padding
 }
 
 .left-sidebar,
@@ -54,10 +63,11 @@
 
 .mid-bar {
     width: 60%;
+
 }
 
 .right-sidebar {
-    
+
 }
 
 /* OTHER */
