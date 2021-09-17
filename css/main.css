@@ -12,11 +12,17 @@
     margin: 25px auto;
 }
 
-header {
-    margin-bottom: 30px;
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 /* UTILITIES */
+
+.marginbottom {
+    margin-bottom: 30px;
+}
 
 .debug-box {
     height: 100px;
@@ -29,8 +35,32 @@ header {
     height: 600px;
     background-color: yellow;
     width: auto;
+}
+
+.left-sidebar,
+.right-sidebar,
+.mid-bar {
+    float: left;
+}
+
+.left-sidebar,
+.right-sidebar {
+    width: 20%;
+}
+
+.left-sidebar {
+
+}
+
+.mid-bar {
+    width: 60%;
+}
+
+.right-sidebar {
     
 }
 
 /* OTHER */
+.floatcontainer {
 
+}
