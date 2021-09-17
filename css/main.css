@@ -1,0 +1,36 @@
+/* GENERAL STYLE */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 70%;
+    margin: 25px auto;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+/* UTILITIES */
+
+.debug-box {
+    height: 100px;
+    background-color: plum;
+    width: auto;
+    border: 1px solid black;
+}
+
+.maincont {
+    height: 600px;
+    background-color: yellow;
+    width: auto;
+    
+}
+
+/* OTHER */
+
