@@ -62,8 +62,6 @@ footer {
 }
 
 .mid-bar {
-    width: 60%;
-
 }
 
 .right-sidebar {
@@ -73,4 +71,15 @@ footer {
 /* OTHER */
 .floatcontainer {
 
+}
+
+
+.bluebackground {
+    background-color: dodgerblue;
+    height: 768px;
+}
+
+.mid-padding {
+    margin: 0 1%;
+    width: 58%;
 }
