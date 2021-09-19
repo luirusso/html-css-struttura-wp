@@ -4,65 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Layout</title>
+    <title>Wordpress Layout</title>
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    
-    <div class="container">
-
+    <!-- Container -->
+    <main class="container">
         <!-- Header -->
-
-        <header class="marginbottom">
+        <header>
             <div class="debug-box">CONTENT</div>
         </header>
+        <!-- 1st Section -->
+        <section>
+            <div class="debug-box firstblock">CONTENT</div>
+        </section>
 
-        <!-- Main -->
-        <main class="marginbottom">
-            <div class="debug-box maincont">CONTENT</div>
-        </main>
-
-        <div class="bluebackground">
-            <!-- Section -->
+        <div class="bottomsection">
+            <!-- 2nd small Section -->
             <section>
-                <div class="debug-box marginbottom">CONTENT</div>
+                <div class="debug-box secondblock">CONTENT</div>
             </section>
-
-            <!-- Floating Section -->
-
-
-            <section class="clearfix marginbottom">
-                <div class="debug-box left-sidebar maincont">
-                    <section class="floatleft">
-                        <div>
-                            CONTENT
-                        </div>
-                    </section>
-                </div>
-                <div class="mid-padding debug-box mid-bar maincont">
-                    <section class="floatmid">
-                     <div>
-                        CONTENT
-                    </div>
-                    </section>
-                </div>                             
-                <div class="debug-box right-sidebar maincont">
-                    <section class="floatright">
-                     <div>
-                         CONTENT
-                        </div>
-                    </section>
-                </div>
-            </section>
+            <!-- Floating section -->
+            <div class="clearfix">
+                <aside class="left">
+                    <div class="debug-box thirdblock">CONTENT</div>
+                </aside>
+                <section class="mid">
+                    <div class="debug-box thirdblock">CONTENT</div>
+                </section>
+                <aside class="right">
+                    <div class="debug-box thirdblock">CONTENT</div>
+                </aside>
+            </div>
         </div>
 
-        
 
         <!-- Footer -->
-
         <footer>
-            <div class="debug-box">CONTENT</div>
+            <div class="debug-box lastblock">CONTENT</div>
         </footer>
-    </div>
+    </main>
+
 </body>
 </html>
